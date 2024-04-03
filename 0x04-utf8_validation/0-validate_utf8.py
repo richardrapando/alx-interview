@@ -6,7 +6,7 @@ UTF-8 validation
 
 def validUTF8(data):
     """
-    function that determines if a given data set represents a valid UTF-8 encoding
+    function that checks if a list of integers are valid UTF-8 codepoints
     """
     skip = 0
     n = len(data)
