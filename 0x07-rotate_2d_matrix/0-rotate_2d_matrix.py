@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""Module for rotating 2D matrix.
+"""Module for rotating a 2D matrix.
 """
 
 
 def rotate_2d_matrix(matrix):
-    """Method that rotates an n by n 2D matrix.
+    """Function that rotates an n * n 2D matrix,
+       90 degrees clockwise.
     """
     if type(matrix) != list:
         return
